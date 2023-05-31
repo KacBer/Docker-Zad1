@@ -10,10 +10,11 @@ Server nasłuchuje na porcie 3000. Po otworzeniu localhosta z portem 3000 na ekr
 W repozytorium został zawarty również plik Dockerfile.
 
 Niezbędne polecenia do:
-*zbudowania kontenera: docker build -t zad1-docker .
-*uruchomienia kontenera: docker run -p 3000:3000 zad1-docker
-*uzyskania informacji: aby uzyskać informację wpisujemy adres http://localhost:3000. Tam otrzymujemy wymienione wyżej informacje na ekranie i w logach.
-*sprawdzenia ilości warstw: docker image inspect zad1-docker. Następnie należy znaleźć sekcję layers
+
+- zbudowania kontenera: docker build -t zad1-docker .
+- uruchomienia kontenera: docker run -p 3000:3000 zad1-docker
+- uzyskania informacji: aby uzyskać informację wpisujemy adres http://localhost:3000. Tam otrzymujemy wymienione wyżej informacje na ekranie i w logach.
+- sprawdzenia ilości warstw: docker image inspect zad1-docker. Następnie należy znaleźć sekcję layers
 
 Uruchomiony serwer docker:
 
